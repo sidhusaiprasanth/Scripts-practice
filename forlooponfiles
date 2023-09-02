@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+FILE="./names.txt"
+
+
+for i in $(cat $FILE)
+do
+    echo "Name is : $i"
+done
